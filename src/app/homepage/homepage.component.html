@@ -1,0 +1,51 @@
+<app-navbar></app-navbar>
+
+<div class="home">
+  <h1>Welcome to Book Store</h1>
+  <p>Explore our collection of amazing books!</p>
+</div>
+
+<div class="search-bar">
+  <input
+    type="text"
+    class="search-input"
+    placeholder="Search books by title..."
+    [(ngModel)]="searchQuery"
+    (input)="searchBooks()"
+  />
+ 
+</div>
+<!-- <select (change)="changeBook($event)" id="bookTypeDropdown">
+  <option value="">All Books</option>
+  <option value="Harry">Harry-Potter</option>
+  <option value="Hunger">Hunger-games</option>
+</select> -->
+<div *ngFor = "let filter of filteredBooks">
+  <img class="book-image" [src]="filter.image" alt="Book Cover" />
+    <h2 class="book-title">{{ filter.title }}</h2>
+    <p class="book-subtitle">{{ filter.subtitle }}</p>
+    <p class="book-isbn">ISBN: {{ filter.isbn13 }}</p>
+    <p class="book-price">Price: {{ filter.price }}</p>
+    <button class="action-button buy-button" (click)="goToCheckout(filter)">Buy Now</button>
+    <button class="action-button add-cart-button" (click)="addCart(filter)">Add to Cart</button>
+
+</div>
+
+<div class="book-list">
+  <!-- <button class="action-button" (click)="bookdetailsData()">Show Books</button> -->
+  <div *ngFor="let book of getDetails" class="book-card">
+    <img class="book-image" [src]="book.image" alt="Book Cover" />
+    <h2 class="book-title">{{ book.title }}</h2>
+    <p class="book-subtitle">{{ book.subtitle }}</p>
+    <p class="book-isbn">ISBN: {{ book.isbn13 }}</p>
+    <p class="book-price">Price: {{ book.price }}</p>
+    <button class="action-button buy-button" (click)="goToCheckout(book)">Buy Now</button>
+    <button class="action-button add-cart-button" (click)="addCart(book)">Add to Cart</button>
+  </div>
+</div>
+
+
+
+
+
+<app-footer></app-footer>

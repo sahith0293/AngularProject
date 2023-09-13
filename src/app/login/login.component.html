@@ -1,0 +1,24 @@
+
+   <div class="login-container">
+    <h2>Login</h2>
+    <form (ngSubmit)="login()">
+        <label for="username">Email or mobile phone number:</label>
+        <input type="text" id="username" name="username" [(ngModel)]="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" required>
+
+        <button type="submit">Login</button>
+        
+    </form>
+    <div class="forgot-password">
+        <p>Forgot your password? <a href="#">Reset Password</a></p>
+    </div>
+
+    <div class="register-link">
+        <p>New user? <a routerLink="/registration">Create your Bookstore account</a></p>
+    </div>
+    <div class="google-signin">
+        <button (click)="google()">Sign in with Google</button>
+    </div>
+</div>

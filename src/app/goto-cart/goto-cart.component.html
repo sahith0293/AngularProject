@@ -1,0 +1,35 @@
+<div class="cart-container">
+  <h2>Your Cart</h2>
+  <div *ngIf="cartItems.length > 0; else noItems">
+    <div *ngFor="let item of cartItems" class="item-box">
+      <div class="item-image">
+        <img [src]="item.image" alt="Book Cover" class="item-image">
+      </div>
+      <div class="item-details">
+        <h3 class="item-title">{{ item.title }}</h3>
+        <p class="item-price">Price: {{ item.price }}</p>
+        <div class="quantity-controls">
+          <button class="control-button" (click)="updateCount(item.id, true, item)">
+            <i class="fas fa-plus"></i>
+          </button>
+          <span class="count">{{ item.Quantity }}</span>
+          <button class="control-button" (click)="updateCount(item.id, false, item)">
+            <i class="fas fa-minus"></i>
+          </button>
+        </div>
+        
+        <button class="remove-button" (click)="removeCart(item)">
+          <i class="fas fa-trash-alt"></i> Remove
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="cart-summary">
+    <p>Shipping Charge: {{ shippingCharge | currency }}</p>
+    <p class="cart-total">Total Cost: {{ calculateTotalCost() | currency: 'USD':'symbol':'1.2-2' }}</p>
+    <!-- <button class="checkout-button">Proceed to Checkout</button> -->
+  </div>
+  <ng-template #noItems>
+    <p>Your cart is empty.</p>
+  </ng-template>
+</div>

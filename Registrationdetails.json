@@ -1,0 +1,111 @@
+{
+  "userdetails": [
+    {
+      "id": 1
+    },
+    {
+      "uname": "sahithpinku",
+      "emailid": "sahithkumar0293@gmail.com",
+      "password": "Sahith1#",
+      "confirmPassword": "Sahith1#",
+      "mobileNumber": 9000390570,
+      "id": 2
+    },
+    {
+      "uname": "mahendhar",
+      "emailid": "padmamahendhar96@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "mobileNumber": 1234567890,
+      "id": 3
+    },
+    {
+      "uname": "yeshwanth",
+      "emailid": "yesh@gmail.com",
+      "password": "Yeshwanth1#",
+      "confirmPassword": "Yeshwanth1#",
+      "mobileNumber": 9550417460,
+      "id": 4
+    },
+    {
+      "uname": "yeshwanth",
+      "emailid": "yesh@gmail.com",
+      "password": "Yeshwanth1#",
+      "confirmPassword": "Yeshwanth1#",
+      "mobileNumber": 9550417460,
+      "id": 5
+    },
+    {
+      "uname": "yeshwanth",
+      "emailid": "yesh@gmail.com",
+      "password": "Yeshwanth1#",
+      "confirmPassword": "Yeshwanth1#",
+      "mobileNumber": 9550417460,
+      "id": 6
+    },
+    {
+      "uname": "Dattatreya",
+      "emailid": "Dattu@gmail.com",
+      "password": "Dattu123",
+      "confirmPassword": "Dattu123",
+      "mobileNumber": 9696456856,
+      "id": 7
+    },
+    {
+      "uname": "Avinashkumar",
+      "emailid": "Avinash@gmail.com",
+      "password": "Avinash123",
+      "confirmPassword": "Avinash123",
+      "mobileNumber": 7036743396,
+      "id": 8
+    },
+    {
+      "uname": "santhoshini",
+      "emailid": "Santhoshini4@gmail.com",
+      "password": "Santhoshini!#",
+      "confirmPassword": "Santhoshini!#",
+      "mobileNumber": 9658456832,
+      "id": 9
+    },
+    {
+      "uname": "manjula12",
+      "emailid": "manjula234@gmail.com",
+      "password": "Santhoshini1#",
+      "confirmPassword": "Santhoshini1#",
+      "mobileNumber": 9550417460,
+      "id": 10
+    },
+    {
+      "uname": "Dattathreya",
+      "emailid": "Dattu@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "mobileNumber": 9000590570,
+      "id": 11
+    },
+    {
+      "uname": "Sahithkummar",
+      "emailid": "sahithpinku@gmail.com",
+      "password": "Sahith4#",
+      "confirmPassword": "Sahith4#",
+      "mobileNumber": 9000390570,
+      "id": 12
+    },
+    {
+      "uname": "Datttatreya",
+      "emailid": "Dattu@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "mobileNumber": 9000390570,
+      "id": 13
+    },
+    {
+      "uname": "Datttatreya",
+      "emailid": "Dattu@gmail.com",
+      "password": "123456789",
+      "confirmPassword": "123456789",
+      "mobileNumber": 9000390570,
+      "id": 14
+    }
+  ]
+}

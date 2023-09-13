@@ -1,0 +1,26 @@
+<p>buynow works!</p>
+<div class="checkout-container">
+    <h2>Checkout</h2>
+    <form (ngSubmit)="placeOrder()">
+      <label for="address">Shipping Address:</label>
+      <textarea id="address" name="address" [(ngModel)]="shippingAddress" required></textarea>
+      
+      <label for="paymentMode">Payment Mode:</label>
+      <select id="paymentMode" name="paymentMode" [(ngModel)]="selectedPaymentMode" required>
+        <option value="creditCard">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="cashOnDelivery">Cash on Delivery</option>
+      </select>
+      
+      <button type="submit">Place Order</button>
+    </form>
+  
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      <p>Shipping Address: {{ shippingAddress }}</p>
+      <p>Shipping Charge:{{shippingCharge|currency}}</p>
+      <p>Total Cost: {{ calculateTotalCost() }}</p>
+      <p>Payment Mode: {{ selectedPaymentMode }}</p>
+    </div>
+  </div>
+  

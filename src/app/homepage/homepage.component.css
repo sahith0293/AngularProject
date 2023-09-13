@@ -1,0 +1,121 @@
+
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.home {
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: #333;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-icon {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-icon:hover {
+  background-color: #003c80;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+}
+
+.book-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-title {
+  color: #333;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.book-subtitle {
+  color: #666;
+  font-size: 14px;
+}
+
+.book-isbn,
+.book-price {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.action-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
+
+.buy-button {
+  background-color: #28a745;
+}
+
+.add-cart-button {
+  background-color: #ffc107;
+  margin-left: 10px;
+}
+

@@ -1,0 +1,124 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.cart-container {
+  width: 70%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+
+.item-box {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid ridge;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: burlywood;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.item-box:hover {
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #111;
+}
+
+.item-price {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.control-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color:black;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.control-button:hover {
+  color: #333;
+}
+
+.count {
+  font-size: 1.2rem;
+  margin: 0 10px;
+  color: #444;
+}
+
+.remove-button {
+  position: relative;
+  left:700px;
+  bottom:20px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #e81010;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.remove-button:hover {
+  color: #ff3333;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.cart-summary p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.cart-total {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  color: #e81010;
+}
+
+.checkout-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f0c14b;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkout-button:hover {
+  background-color: #d89b37;
+}

@@ -1,0 +1,175 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Liferay Portal Performance Best Practices",
+      "subtitle": "A practical tutorial to learn the best practices for building high performing Liferay-based solutions",
+      "isbn13": "9781782163688",
+      "price": "$16.99",
+      "image": "https://itbook.store/img/books/9781782163688.png",
+      "url": "https://itbook.store/books/9781782163688"
+    },
+    {
+      "id": 2,
+      "title": "Liferay 6.x Portal Enterprise Intranets Cookbook",
+      "subtitle": "Over 60 hands-on recipes to help you efficiently create complex and highly personalized enterprise intranet solutions with Liferay Portal 6.x CE",
+      "isbn13": "9781782164289",
+      "price": "$49.99",
+      "image": "https://itbook.store/img/books/9781782164289.png",
+      "url": "https://itbook.store/books/9781782164289"
+    },
+    {
+      "id": 3,
+      "title": "Liferay in Action",
+      "subtitle": "The Official Guide to Liferay Portal Development",
+      "isbn13": "9781935182825",
+      "price": "$22.87",
+      "image": "https://itbook.store/img/books/9781935182825.png",
+      "url": "https://itbook.store/books/9781935182825"
+    },
+    {
+      "id": 4,
+      "title": "Containerized Docker Application Lifecycle with Microsoft Platform and Tools",
+      "subtitle": "",
+      "isbn13": "1001590311930",
+      "price": "$0.00",
+      "image": "https://itbook.store/img/books/1001590311930.png",
+      "url": "https://itbook.store/books/1001590311930"
+    },
+    {
+      "id": 5,
+      "title": "Professional Application Lifecycle Management with Visual Studio 2013",
+      "subtitle": "",
+      "isbn13": "9781118836583",
+      "price": "$12.73",
+      "image": "https://itbook.store/img/books/9781118836583.png",
+      "url": "https://itbook.store/books/9781118836583"
+    },
+    {
+      "id": 6,
+      "title": "Pro Application Lifecycle Management with Visual Studio 2012, 2nd Edition",
+      "subtitle": "",
+      "isbn13": "9781430243441",
+      "price": "$54.99",
+      "image": "https://itbook.store/img/books/9781430243441.png",
+      "url": "https://itbook.store/books/9781430243441"
+    },
+    {
+      "id": 7,
+      "title": "Beginning Application Lifecycle Management",
+      "subtitle": "",
+      "isbn13": "9781430258124",
+      "price": "$39.99",
+      "image": "https://itbook.store/img/books/9781430258124.png",
+      "url": "https://itbook.store/books/9781430258124"
+    },
+    {
+      "id": 8,
+      "title": "Professional Application Lifecycle Management with Visual Studio 2010",
+      "subtitle": "",
+      "isbn13": "9781457104404",
+      "price": "$0.00",
+      "image": "https://itbook.store/img/books/9781457104404.png",
+      "url": "https://itbook.store/books/9781457104404"
+    },
+    {
+      "id": 9,
+      "title": "MMOs from the Outside In",
+      "subtitle": "The Massively-Multiplayer Online Role-Playing Games of Psychology, Law, Government, and Real Life",
+      "isbn13": "9781484217801",
+      "price": "$33.94",
+      "image": "https://itbook.store/img/books/9781484217801.png",
+      "url": "https://itbook.store/books/9781484217801"
+    },
+    {
+      "id": 10,
+      "title": "Data Integration Life Cycle Management with SSIS",
+      "subtitle": "A Short Introduction by Example",
+      "isbn13": "9781484232750",
+      "price": "$24.56",
+      "image": "https://itbook.store/img/books/9781484232750.png",
+      "url": "https://itbook.store/books/9781484232750"
+    }
+  ],
+  "carts": [
+    {
+      "id": 6,
+      "title": "Pro Application Lifecycle Management with Visual Studio 2012, 2nd Edition",
+      "subtitle": "",
+      "isbn13": "9781430243441",
+      "price": "$54.99",
+      "image": "https://itbook.store/img/books/9781430243441.png",
+      "url": "https://itbook.store/books/9781430243441"
+    },
+    {
+      "id": 7,
+      "title": "Beginning Application Lifecycle Management",
+      "subtitle": "",
+      "isbn13": "9781430258124",
+      "price": "$39.99",
+      "image": "https://itbook.store/img/books/9781430258124.png",
+      "url": "https://itbook.store/books/9781430258124"
+    },
+    {
+      "id": 2,
+      "title": "Liferay 6.x Portal Enterprise Intranets Cookbook",
+      "subtitle": "Over 60 hands-on recipes to help you efficiently create complex and highly personalized enterprise intranet solutions with Liferay Portal 6.x CE",
+      "isbn13": "9781782164289",
+      "price": "$49.99",
+      "image": "https://itbook.store/img/books/9781782164289.png",
+      "url": "https://itbook.store/books/9781782164289"
+    }
+  ],
+  "HarryPotter": [
+    {
+      "id": 1,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "subtitle": "The Boy Who Lived",
+      "isbn": "978-1-xxx-xxxxx-x",
+      "price": 15.99,
+      "image": "assets/harrypotter1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "subtitle": "The Heir of Slytherin",
+      "isbn": "978-1-xxx-xxxxx-x",
+      "price": 16.99,
+      "image": "assets/harrypotter2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "subtitle": "The Secret in the Shrieking Shack",
+      "isbn": "978-1-xxx-xxxxx-x",
+      "price": 17.99,
+      "image": "assets/harrypotter3.jpeg"
+    }
+  ],
+  "HungerGames": [
+    {
+      "id": 1,
+      "title": "The Hunger Games",
+      "subtitle": "May the odds be ever in your favor",
+      "isbn": "978-2-xxx-xxxxx-x",
+      "price": 12.49,
+      "image": "assets/Hungergames.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Catching Fire",
+      "subtitle": "The Spark That Ignites a Rebellion",
+      "isbn": "978-2-xxx-xxxxx-x",
+      "price": 14.99,
+      "image": "assets/h2.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Mockingjay",
+      "subtitle": "The Final Stand",
+      "isbn": "978-2-xxx-xxxxx-x",
+      "price": 13.75,
+      "image": "assets/h3.jpeg"
+    }
+  ]
+}

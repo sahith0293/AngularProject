@@ -1,0 +1,73 @@
+<div class="registration-container">
+    <h2>Registration</h2>
+    <form class="signup-form" [formGroup]="reg" (ngSubmit)="data()">
+      <label for="uname">User Name</label>
+      <input type="text" id="uname" formControlName="uname" class="form-control">
+      <div *ngIf="reg.controls['uname'].touched && reg.controls['uname']?.errors">
+        <div *ngIf="reg.controls['uname']?.['errors']?.['required']" class="error-msg">
+          Username is required
+        </div>
+        <div *ngIf="reg.controls['uname']?.['errors']?.['minlength']"class="error-msg">
+          Username should be minimum 8 characters
+        </div>
+      </div><br><br>
+      <label for="email">Email</label>
+      <input type="text" id="email" formControlName="emailid" class="form-control">
+      <div *ngIf="reg.controls['emailid'].touched && reg.controls['emailid']?.errors">
+        <div *ngIf="reg.controls['emailid'].errors?.['required']" class="error-msg">
+          Email is required
+        </div>
+        <div *ngIf="reg.controls['emailid'].errors?.['email']" class="error-msg">
+          Enter a valid Email
+        </div>
+      </div><br><br>
+      <label for="password">Password</label>
+      <input type="password" id="password" formControlName="password" class="form-control">
+      <div *ngIf="reg.controls['password'].touched && reg.controls['password']?.errors">
+        <div *ngIf="reg.controls['password'].errors?.['required']" class="error-msg">
+          Password is required
+        </div>
+        <div *ngIf="reg.controls['password'].errors?.['minlength']" class="error-msg">
+          Password should be minimum 8 characters
+        </div>
+      </div><br><br>
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" formControlName="confirmPassword" class="form-control">
+      <div *ngIf="reg.controls['confirmPassword'].touched && reg.controls['confirmPassword']?.errors">
+        <div *ngIf="reg.controls['confirmPassword'].errors?.['required']" class="error-msg">
+          Confirm Password is required
+        </div>
+        <div *ngIf = "reg['errors']?.['pswrdMatch']" class="error-msg">
+          Passwords do not match
+        </div>
+      </div><br><br>
+      <label for="mobileNumber">MobileNumber</label>
+      <input type="number" id="mobileNumber" formControlName="mobileNumber" class="form-control">
+      <div *ngIf="reg.controls['mobileNumber'].touched && reg.controls['mobileNumber']?.errors">
+        <div *ngIf="reg.controls['mobileNumber'].errors?.['required']" class="error-msg">
+          Confirm Password is required
+        </div>
+        <div *ngIf="reg.controls['mobileNumber'].errors?.['minlength']" class="error-msg">
+          Invalid Mobile Number
+        </div>
+        
+      </div><br><br>
+    
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="m" formControlName="gender">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="f" formControlName="gender">
+      <label for="female">Female</label><br><br>
+    
+      <label for="subscribe">Subscribe</label>
+      <input type="checkbox" id="subscribe" formControlName="subscribe"><br>
+    
+      <button class="submit-btn" (click)="show()" type = "submit" [disabled]="reg.invalid">Signup</button>
+      <button type="reset" (click) = "reset()">Reset</button>
+    </form> 
+        
+      
+    <div class="login-link">
+      <p>Already registered? <a routerLink="">Login here</a></p>
+    </div>
+</div>
